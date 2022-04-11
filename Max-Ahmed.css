@@ -10,3 +10,7 @@ a{
 h1{
     color: blue;
 }
+
+h2{
+    border-image: fill;
+}
