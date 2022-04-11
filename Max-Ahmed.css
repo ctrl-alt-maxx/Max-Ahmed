@@ -1,0 +1,12 @@
+a{
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: black;
+    padding: 0px;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: blue;
+}
