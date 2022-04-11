@@ -1,16 +1,13 @@
-a{
-    background-color: beige;
-    border: 1px solid black;
-    border-radius: 3px;
-    color: black;
-    padding: 0px;
-    font-family: Arial, Arial, Helvetica, sans-serif;
+input[type=checkbox]{
+    display:none;
 }
-
-h1{
-    color: blue;
+label{
+    cursor: pointer;
+    text-indent:9999px;
+    height:50px;
+    width:100px;
+    background-color: #dff7fa;
+    border-radius: 25px;
+    position: relative;
+    transition:all .4s ease-out;
 }
-
-h2{
-    font-size:large;
-    border-image: fill;}
