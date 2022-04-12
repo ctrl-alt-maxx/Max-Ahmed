@@ -8,17 +8,22 @@ input[type=checkbox]{
     display:none;
 }
 .beak{
-    height: 50px;
-    width: 50px;
+    height: 20px;
+    width: 20px;
     border: solid orange 2px;
     border-top-left-radius:90% ;
     border-bottom-right-radius: 20%;
     background-color: orange;
+    transform: rotate(45deg);
 }
 .birdbody{
     margin: 0px;
     padding: 0px;
     
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
     height: 50px;
     width: 55px;
     border: solid black 2px;
@@ -27,49 +32,37 @@ input[type=checkbox]{
     border-bottom-right-radius: 40%;
     border-bottom-left-radius:40% ;
     background-color: black;
-    border-bottom-right-radius;
 }
 
-.parent {
+.bird {
     display: grid;
-    grid-template-columns: 200px 55px 200px;
+    grid-template-columns: 122.5px 55px 122.5px;
     grid-template-rows: 1fr;
+    height:100px;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     }
     
     .div1 { grid-area: 1 / 1 / 2 / 2; }
     .div2 { grid-area: 1 / 3 / 2 / 4; }
-    .div3 { grid-area: 1 / 2 / 2 / 3;
-        display: flex;
-        align-items: center;
-        justify-content: center; }
+    .div3 { grid-area: 1 / 2 / 2 / 3; }
 
 
 label{
-    cursor: pointer;
-    text-indent:9999px;
-    background-color: #000000;
-    border-radius: 25px;
+    cursor: crosshair;
     position: relative;
     transition:all .4s ease-out;
 }
-    label:after{
-        content: '';
-        position:absolute;
-        top:5px;
-        left:5px;
-        width:40px;
-        height:40px;
-        background-color: #a5cace;
-        border-radius: 50%;
-        transition:all .4s ease-out;
-
-    }
 input:checked + label{
-    background: #96e7ef;
+    width: 300px;
+    border:solid black 2px;
+    background-color: aliceblue;
+    
+   
 }  
-    input:checked + label:after{
-        transform:translate3d(50px,0,0);
-        background-color: #1d6269;
+    input:checked:after + label{
+        content-visibility: hidden;
     }
