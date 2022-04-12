@@ -26,24 +26,6 @@ input[type=checkbox]{
     background-color: black;
     border-bottom-right-radius;
 }
-div{
-    box-shadow: 0 20px 0 0;
-    height: 50px;
-    width: 100px;
-    border: #0000 solid 2px;
-}
-div2{
-    height: 50px;
-    width: 100px;
-    background-color: #000000;
-    border: solid #0000 2px;
-    border-top-left-radius:90% ;
-    border-top-right-radius:90%;
-    border-bottom-right-radius:90%;
-    border-bottom-left-radius:90%;
-    bottom: 50px;
-    left: -55px;
-}
 
 label{
     cursor: pointer;
