@@ -7,7 +7,6 @@
 body{
 
     display:flex;
-    justify-content:center;
     align-items: center;
     flex-direction: column;
 }
@@ -16,17 +15,39 @@ header{
 
     font-size: large;
     text-align:center;
+    padding-top:20px;
 }
 
 .game{
 
- 
-    height: 400px;
-    width:95%;
-    margin:10px 10px;
-    background-color: aqua;
+    display:flex;
+    justify-content: center;
+    height: 850px;
+    width:98%;
+    background-color: rgb(146, 207, 223);
     border: solid;
     border-color: black;
-    border-width: 2px;
+    border-width: 3px;
 }
 
+img{
+    animation-name: cloudsMovement;
+    animation-duration: 13s;
+    transition-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cloudsMovement{
+
+    0% {transform: translateX(0%);}
+    25% {transform: translateX(20%);}
+    50% {transform: translateX(0%);}
+    75% {transform: translateX(-20%);}
+    100% {transform: translateX(0%);}
+} 
+
+footer{
+
+    font-size: 25px;
+    margin-top: 10px;
+}
