@@ -21,12 +21,12 @@ input{position:fixed; left:-10px; top:-10px;}
     left:0;  
     cursor:crosshair;
   }
-  .bird>span{
+  .bird1{
     display:none;position:absolute; z-index:2; left:-250%;bottom:-50%;  
     background-color:white; border:solid 2px #000; width:80px; height:30px; padding:10px; border-radius:50%;
   }
   .bird>span:before{
-    content:"I'm Dead!"; color:red; font-weight:bold;
+    content:"Croak!"; color:red; font-weight:bold;
   }
   .input-circle1:not(:checked) ~ .bird1,
 
