@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: crimson;
+}
+.croak::before{
+
+    width:400px;
+    height:100px;
+    padding: 50px 100px 50px 100px;
+    border: 3px solid black;
+    content:"CROAK!!!";
+    font-weight: bold;
+    
+    color: red;
+    border-radius: 50% 50% 50% 50%;
+    background-color:white;
+}
