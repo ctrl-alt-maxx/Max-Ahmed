@@ -52,7 +52,7 @@ input:checked + label{
     border-radius: 50% 50% 50% 50%;
     background-color:white;
 }
-  input:checked:after + label{
+  input:checked + label{
       content-visibility: hidden;
   }
 
