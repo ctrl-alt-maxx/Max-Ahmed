@@ -20,7 +20,8 @@ header{
 
 .game{
 
-    display:flex;
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
     justify-content: center;
     height: 850px;
     width:98%;
@@ -30,7 +31,7 @@ header{
     border-width: 3px;
 }
 
-img{
+.cloud{
     animation-name: cloudsMovement;
     animation-duration: 13s;
     transition-timing-function: linear;
@@ -40,9 +41,9 @@ img{
 @keyframes cloudsMovement{
 
     0% {transform: translateX(0%);}
-    25% {transform: translateX(20%);}
-    50% {transform: translateX(0%);}
-    75% {transform: translateX(-20%);}
+    25% {transform: translateX(10%);}
+    50% {transform: translateX(20%);}
+    75% {transform: translateX(10%);}
     100% {transform: translateX(0%);}
 } 
 
