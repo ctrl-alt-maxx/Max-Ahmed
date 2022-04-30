@@ -7,13 +7,16 @@ body{
 
 label{
     cursor: crosshair;
-    width:600px;
+    width:504px;
+    height:130px;
+    border-radius: 25px;
     position: relative;
 
 }
+
 .bird{width: 600px;
-    border: solid 2px rgba(100, 148, 237, 0);
-    border-radius: 50% 50% 50% 50%;
+    display: flex;
+    justify-content: center;
 
     }
 input[type=radio]{
@@ -22,41 +25,52 @@ input[type=radio]{
 
 .parent {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 190px 94px 220px;
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  width: 600px;
-  display: flex;
-  justify-content: center;
+  width: 504px;
+  position: absolute;
+  z-index: 0;
+  opacity: 1;
   
   }
   
   .div1 { grid-area: 1 / 1 / 2 / 2;
-transform:translatex(23px) }
-  .body { grid-area: 1 / 2 / 2 / 3; }
-  .div3 { grid-area: 1 / 3 / 2 / 4; 
-transform:translatex(-27px)}
+    
+}
+  .body { grid-area: 1 / 2 / 2 / 3;
+    }
+  .div3 { grid-area: 1 / 3 / 2 / 4;
+   
+}
 
 .dead{
-    padding: 50px 100px 50px 100px;
-    border: 3px solid black;
-    content:"CROAK!!!";
-    font-size: 30px;
-    font-weight: bold;
-    
-    color: red;
+    position: absolute;
+    z-index: 1;
+    opacity:0;
     border-radius: 50% 50% 50% 50%;
     background-color:white;
+    padding: 50px 100px 50px 100px;
+    border: 3px solid black;
+    color: red;
+    font-size: 30px;
+    font-weight: bold;  
+    text-align: center;
+    
 }
-   
 
-input:checked + label{
-   
+input:checked + label>div.bird>.dead{
+    opacity:1;
 }
-  input:checked + label{
-      content-visibility: hidden;
-  }
+    input:checked + label{
+        transition-delay: 1s;
+        opacity:0;
+    }
+
+
+
+ 
 
 
 
