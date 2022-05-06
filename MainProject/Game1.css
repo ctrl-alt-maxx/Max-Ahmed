@@ -125,9 +125,9 @@ input:checked + label>div.all-bird>.dead{
   transform-origin:right;
 }
 @keyframes fly-left{
-    0%{transform: rotate(-25deg);}
-    50% {transform: rotate(25deg); }
-    100%{transform: rotate(-25deg); }
+    0%{transform: rotate(0deg);}
+    50% {transform: rotate(20deg); }
+    100%{transform: rotate(0deg); }
 }
 
 .right-wing-animation
@@ -140,9 +140,9 @@ input:checked + label>div.all-bird>.dead{
 }
 @keyframes fly-right
 {
-      0%{transform: rotate(25deg);}
-      50% {transform: rotate(-25deg); }
-      100%{transform: rotate(25deg); }
+      0%{transform: rotate(0deg);}
+      50% {transform: rotate(-20deg); }
+      100%{transform: rotate(0deg); }
 }
 
 
