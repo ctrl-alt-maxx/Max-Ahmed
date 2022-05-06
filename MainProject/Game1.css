@@ -59,11 +59,11 @@ footer{
 /*----------- bird -----------*/
 
 label{
-    cursor: crosshair;
+    cursor:crosshair;
     width:504px;
     height:130px;
     border-radius: 25px;
-    position: relative;
+    position: absolute;
     z-index: 1;
 
 }
@@ -130,28 +130,19 @@ input:checked + label>div.all-bird>.dead{
     100%{transform: rotate(-25deg); }
 }
 
-.right-wing-animation{
+.right-wing-animation
+{
     animation-name:fly-right;
     position: relative;
     animation-duration: 1.5s; 
     animation-iteration-count: infinite; 
     transform-origin:left;
-  }
-  @keyframes fly-right{
+}
+@keyframes fly-right
+{
       0%{transform: rotate(25deg);}
       50% {transform: rotate(-25deg); }
       100%{transform: rotate(25deg); }
-  }
-
-  .label-animation{
-    animation-name:fly;
-    position: relative;
-    animation-duration: 1.5s; 
-    animation-iteration-count: infinite; 
-    transform-origin:center;  
-  }
-  @keyframes fly{
-    0%{transform: translate(0 0);}
-    50% {transform: translate(0 200px); }
-    100%{transform: translate(0 0); }
 }
+
+
