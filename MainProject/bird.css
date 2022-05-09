@@ -49,7 +49,7 @@ input[type=radio]{
 
 .bird {
   display: flex;
-  position: absolute;
+  position: relative;
   opacity: 1;
   flex-direction: row;
   justify-content: center;
