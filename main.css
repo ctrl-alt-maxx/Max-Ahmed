@@ -11,13 +11,13 @@
     background: transparent;
 }
 body{
-
+    background-image: linear-gradient(rgb(162, 211, 235),rgba(233, 180, 227, 0.551));
     display:flex;
     align-items: center;
     justify-content: center;
     height:100vh;
     cursor: crosshair;
-    background-image: url(stage.png);
+    
 }
 
 header{
@@ -43,8 +43,11 @@ header{
     .sidebar-right { grid-area: 2 / 1 / 4 / 2; }
     .sidebar-left { grid-area: 2 / 3 / 4 / 4; }
     .game-space { grid-area: 2 / 2 / 3 / 3; 
-        background-color: rgba(146, 208, 223, 0.552);
+        background-image: url(tumblr_o71mvufacw1uaundno1_1280.gif);
+        background-repeat: no-repeat;
+        background-size: 100%;
         border: solid;
+        position: relative;
         border-color: black;
         border-width: 3px;}
     .foot { grid-area: 3 / 2 / 4 / 3; 
