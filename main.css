@@ -12,7 +12,7 @@ body{
     justify-content: center;
     height:100vh;
     cursor: crosshair;
-    background-image: url(../MainProject/stage.png);
+    background-image: url(stage.png);
 }
 
 header{
