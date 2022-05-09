@@ -20,12 +20,6 @@ body{
     
 }
 
-header{
-
-    font-size: large;
-    text-align:center;
-    
-}
 .game-grid {
     display: grid;
     width: 2558.4px;
@@ -58,6 +52,7 @@ header{
 footer{
 
     margin-top: 10px;
+    opacity: 0.5;
     
 }
 
