@@ -41,7 +41,7 @@
     0%{left:75%;top:0%;}
     10%{left:10%;top:47%;}
     20%{left:31%;top:26%;}
-    30%{left:57%;top:61%;}
+    30%{left:57%;top:56%;}
     40%{left:25%;top:47%;}
     50%{left:46%;top:52%;}
     60%{left:75%;top:36%;}
@@ -83,7 +83,7 @@
 }
 @keyframes fly3{
     0%{left:65%;top:0%;}
-    10%{left:20%;top:57%;}
+    10%{left:20%;top:54%;}
     20%{left:11%;top:12%;}
     30%{left:14%;top:31%;}
     40%{left:57%;top:43%;}
@@ -106,7 +106,7 @@
 @keyframes fly4{
     0%{left:60%;top:0%;}
     10%{left:26%;top:33%;}
-    20%{left:51%;top:61%;}
+    20%{left:51%;top:51%;}
     30%{left:74%;top:21%;}
     40%{left:42%;top:53%;}
     50%{left:40%;top:20%;}
@@ -175,7 +175,7 @@
     20%{left:21%;top:46%;}
     30%{left:34%;top:31%;}
     40%{left:12%;top:13%;}
-    50%{left:70%;top:50%;}
+    50%{left:70%;top:40%;}
     60%{left:37%;top:26%;}
     70%{left:25%;top:39%;}
     80%{left:19%;top:42%;}
