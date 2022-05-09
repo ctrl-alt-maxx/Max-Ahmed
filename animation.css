@@ -77,7 +77,7 @@
 .fly3{
     animation-name:fly3;
     position:relative;
-    animation-duration: 12s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 
 }
@@ -140,3 +140,24 @@
 
 }
 
+.fly6{
+    animation-name:fly6;
+    position:relative;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes fly6{
+    0%{left:1200px;top:10px;}
+    10%{left:570px;top:30px;}
+    20%{left:120px;top:40px;}
+    30%{left:130px;top:210px;}
+    40%{left:20px;top:100px;}
+    50%{left:150px;top:50px;}
+    60%{left:370px;top:50px;}
+    70%{left:250px;top:150px;}
+    80%{left:100px;top:170px;}
+    90%{left:1080px;top:190px;}
+    100%{left:1200px;top:10px;}
+
+}
