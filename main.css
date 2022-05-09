@@ -16,7 +16,9 @@ body{
     align-items: center;
     justify-content: center;
     height:100vh;
-    cursor: crosshair;
+
+    
+
     
 }
 
@@ -43,7 +45,8 @@ body{
         border: solid;
         position: relative;
         border-color: black;
-        margin-bottom: -20px;
+        margin-bottom: -5px;
+        cursor: crosshair;
         border-width: 3px;}
 
     .foot { grid-area: 3 / 2 / 4 / 3; 
@@ -53,7 +56,6 @@ body{
 
 footer{
 
-    margin-top: 20px;
     opacity: 0.5;
     
 }
@@ -61,7 +63,8 @@ footer{
 /*-----------z-index----------*/
 
 .game-grid{z-index: 0;}
-label{z-index:1;}
-.bird{z-index:1;}
-.dead{z-index:2;}
+.score{z-index: 1;}
+label{z-index:2;}
+.bird{z-index:2;}
+.dead{z-index:3;}
 
