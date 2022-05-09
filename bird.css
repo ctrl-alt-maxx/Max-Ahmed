@@ -39,6 +39,7 @@ label{
     cursor:crosshair;
     border-radius: 25px;
     position: absolute;
+    display: block;
 
 }
 
