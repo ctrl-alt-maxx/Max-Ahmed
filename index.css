@@ -1,0 +1,51 @@
+*{
+    
+    margin:0;
+    padding:0;
+}
+body{
+    background-image:url("../Max-Amed/stage.png");
+    cursor: crosshair;
+}
+a{
+    background-color: rgb(211, 168, 111);
+    color: white;
+    display: block;
+    height: 100%;
+    font-size: 30px;
+    line-height: 120px;
+    text-decoration: none;
+    width: 100%;
+    opacity: 0.7;
+    text-align: center;
+}
+    a:hover{
+        opacity: 0.2;
+    }
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width:1245.6;
+    height: 100vh;;
+    }
+    
+    .div1 { grid-area: 1 / 2 / 2 / 5; 
+    background-color: antiquewhite;border:solid 6px rgb(71, 52, 28);text-align: center;font-size: 80px;color: rgb(71, 52, 28);}
+    .div2 { grid-area: 2 / 2 / 3 / 3; border:solid 3px rgb(71, 52, 28);}
+    .div3 { grid-area: 2 / 3 / 3 / 4; border:solid 3px rgb(71, 52, 28);}
+    .div4 { grid-area: 2 / 4 / 3 / 5; border:solid 3px rgb(71, 52, 28);}
+    .div5 { grid-area: 3 / 2 / 4 / 3; border:solid 3px rgb(71, 52, 28);}
+    .div6 { grid-area: 3 / 3 / 4 / 4; border:solid 3px rgb(71, 52, 28);}
+    .div7 { grid-area: 3 / 4 / 4 / 5; border:solid 3px rgb(71, 52, 28);}
+    .div8 { grid-area: 4 / 2 / 5 / 3; }
+    .div9 { grid-area: 4 / 3 / 5 / 4; }
+    .div10 { grid-area: 4 / 4 / 5 / 5; }
+    .div11 { grid-area: 5 / 2 / 6 / 3; }
+    .div12 { grid-area: 5 / 3 / 6 / 4; }
+    .div13 { grid-area: 5 / 4 / 6 / 5; }
+    .div14 { grid-area: 1 / 1 / 6 / 2; display: flex;align-items:flex-end;}
+    .div15 { grid-area: 1 / 5 / 6 / 6; }
