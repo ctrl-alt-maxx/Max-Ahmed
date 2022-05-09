@@ -161,3 +161,26 @@
     100%{left:1200px;top:10px;}
 
 }
+
+label>div.fly7{
+    animation-name:fly7;
+    position:relative;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    transform-origin: inherit;
+
+}
+@keyframes fly7{
+    0%{left:80%;top:10%;}
+    10%{left:40%;top:33%;}
+    20%{left:21%;top:46%;}
+    30%{left:34%;top:31%;}
+    40%{left:12%;top:63%;}
+    50%{left:70%;top:50%;}
+    60%{left:37%;top:56%;}
+    70%{left:25%;top:69%;}
+    80%{left:19%;top:70%;}
+    90%{left:89%;top:190px;}
+    100%{left:80%;top:10%;}
+
+}
