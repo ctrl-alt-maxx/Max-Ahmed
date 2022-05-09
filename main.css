@@ -30,7 +30,7 @@ header{
     display: grid;
     width: 2558.4px;
     height:100vh;
-
+    position: relative;
     grid-template-columns: 0.01fr 1fr 0.01fr;
     grid-template-rows: 0.1fr 1fr 0.1fr;
     grid-column-gap: 0px;
