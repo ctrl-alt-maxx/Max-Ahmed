@@ -2,30 +2,30 @@
 
 .left-wing-animation{
     animation-name:fly-left;
-    position: absolute;
+    position: relative;
     animation-duration: 1.5s; 
     animation-iteration-count: infinite; 
     transform-origin:right;
   }
   @keyframes fly-left{
-      0%{transform: rotate(0deg) translateY(5px);}
-      50% {transform: rotate(20deg) translateY(5px); }
-      100%{transform: rotate(0deg) translateY(5px); }
+      0%{transform: rotate(0deg) translateX(5px);}
+      50% {transform: rotate(20deg) translateX(5px); }
+      100%{transform: rotate(0deg) translateX(5px); }
   }
   
   .right-wing-animation
   {
       animation-name:fly-right;
-      position: absolute;
+      position: relative;
       animation-duration: 1.5s; 
       animation-iteration-count: infinite; 
       transform-origin:left;
   }
   @keyframes fly-right
   {
-        0%{transform: rotate(0deg);}
-        50% {transform: rotate(-20deg); }
-        100%{transform: rotate(0deg); }
+        0%{transform: rotate(0deg) translateX(-10px);}
+        50% {transform: rotate(-20deg)translateX(-10px); }
+        100%{transform: rotate(0deg)translateX(-10px); }
   }
 
 /*-------Flying-------*/
@@ -139,3 +139,4 @@
     100%{left:1100px;top:10px;}
 
 }
+
