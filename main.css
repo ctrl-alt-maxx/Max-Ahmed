@@ -39,11 +39,13 @@ body{
     .game-space { grid-area: 2 / 2 / 3 / 3; 
         background-image: url(tumblr_o71mvufacw1uaundno1_1280.gif);
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
         border: solid;
         position: relative;
         border-color: black;
+        margin-bottom: -20px;
         border-width: 3px;}
+
     .foot { grid-area: 3 / 2 / 4 / 3; 
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 
@@ -51,7 +53,7 @@ body{
 
 footer{
 
-    margin-top: 10px;
+    margin-top: 20px;
     opacity: 0.5;
     
 }
