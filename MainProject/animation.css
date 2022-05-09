@@ -2,21 +2,21 @@
 
 .left-wing-animation{
     animation-name:fly-left;
-    position: relative;
+    position: absolute;
     animation-duration: 1.5s; 
     animation-iteration-count: infinite; 
     transform-origin:right;
   }
   @keyframes fly-left{
-      0%{transform: rotate(0deg);}
-      50% {transform: rotate(20deg); }
-      100%{transform: rotate(0deg); }
+      0%{transform: rotate(0deg) translateY(5px);}
+      50% {transform: rotate(20deg) translateY(5px); }
+      100%{transform: rotate(0deg) translateY(5px); }
   }
   
   .right-wing-animation
   {
       animation-name:fly-right;
-      position: relative;
+      position: absolute;
       animation-duration: 1.5s; 
       animation-iteration-count: infinite; 
       transform-origin:left;
