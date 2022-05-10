@@ -38,39 +38,39 @@
 
   }
   @keyframes fly1{
-      0%{left:100px;top:10px;}
-      10%{left:50px;top:50px;}
-      20%{left:200px;top:0px;}
-      30%{left:250px;top:450px;}
-      40%{left:500px;top:200px;}
-      50%{left:20px;top:10px;}
-      60%{left:1050px;top:150px;}
-      70%{left:440px;top:150px;}
-      80%{left:20px;top:150px;}
-      90%{left:450px;top:250px;}
-      100%{left:100px;top:10px;}
+    0%{left:75%;top:0%;}
+    10%{left:10%;top:47%;}
+    20%{left:31%;top:26%;}
+    30%{left:57%;top:56%;}
+    40%{left:25%;top:47%;}
+    50%{left:46%;top:52%;}
+    60%{left:75%;top:36%;}
+    70%{left:45%;top:39%;}
+    80%{left:19%;top:26%;}
+    90%{left:70%;top:44%;}
+    100%{left:75%;top:0%;}
 
   }
   
   .fly2{
     animation-name:fly2;
     position:relative;
-    animation-duration: 10s;
+    animation-duration: 12s;
     animation-iteration-count: infinite;
 
 }
 @keyframes fly2{
-    0%{left:500px;top:15px;}
-    10%{left:150px;top:250px;}
-    20%{left:1000px;top:80px;}
-    30%{left:10px;top:300px;}
-    40%{left:500px;top:100px;}
-    50%{left:200px;top:150px;}
-    60%{left:750px;top:150px;}
-    70%{left:440px;top:150px;}
-    80%{left:20px;top:450px;}
-    90%{left:450px;top:250px;}
-    100%{left:500px;top:15px;}
+    0%{left:70%;top:0%;}
+    10%{left:40%;top:33%;}
+    20%{left:21%;top:46%;}
+    30%{left:34%;top:31%;}
+    40%{left:12%;top:13%;}
+    50%{left:70%;top:50%;}
+    60%{left:37%;top:56%;}
+    70%{left:25%;top:31%;}
+    80%{left:19%;top:45%;}
+    90%{left:39%;top:19%;}
+    100%{left:70%;top:0%;}
 
 }
 
@@ -82,17 +82,17 @@
 
 }
 @keyframes fly3{
-    0%{left:1050px;top:10px;}
-    10%{left:150px;top:150px;}
-    20%{left:500px;top:50px;}
-    30%{left:10px;top:450px;}
-    40%{left:200px;top:10px;}
-    50%{left:200px;top:250px;}
-    60%{left:750px;top:150px;}
-    70%{left:540px;top:350px;}
-    80%{left:20px;top:50px;}
-    90%{left:450px;top:250px;}
-    100%{left:1050px;top:10px;}
+    0%{left:65%;top:0%;}
+    10%{left:20%;top:54%;}
+    20%{left:11%;top:12%;}
+    30%{left:14%;top:31%;}
+    40%{left:57%;top:43%;}
+    50%{left:50%;top:30%;}
+    60%{left:74%;top:26%;}
+    70%{left:45%;top:39%;}
+    80%{left:19%;top:40%;}
+    90%{left:59%;top:39%;}
+    100%{left:65%;top:0%;}
 
 }
 
@@ -104,17 +104,17 @@
 
 }
 @keyframes fly4{
-    0%{left:750px;top:10px;}
-    10%{left:150px;top:20px;}
-    20%{left:520px;top:50px;}
-    30%{left:100px;top:250px;}
-    40%{left:20px;top:30px;}
-    50%{left:50px;top:250px;}
-    60%{left:850px;top:450px;}
-    70%{left:240px;top:150px;}
-    80%{left:20px;top:50px;}
-    90%{left:550px;top:450px;}
-    100%{left:750px;top:10px;}
+    0%{left:60%;top:0%;}
+    10%{left:26%;top:33%;}
+    20%{left:51%;top:51%;}
+    30%{left:74%;top:21%;}
+    40%{left:42%;top:53%;}
+    50%{left:40%;top:20%;}
+    60%{left:57%;top:26%;}
+    70%{left:72%;top:29%;}
+    80%{left:39%;top:50%;}
+    90%{left:59%;top:29%;}
+    100%{left:60%;top:0%;}
 
 }
 
@@ -126,17 +126,17 @@
 
 }
 @keyframes fly5{
-    0%{left:1100px;top:10px;}
-    10%{left:170px;top:30px;}
-    20%{left:320px;top:40px;}
-    30%{left:130px;top:20px;}
-    40%{left:200px;top:10px;}
-    50%{left:50px;top:250px;}
-    60%{left:330px;top:150px;}
-    70%{left:200px;top:50px;}
-    80%{left:10px;top:170px;}
-    90%{left:580px;top:150px;}
-    100%{left:1100px;top:10px;}
+    0%{left:55%;top:0%;}
+    10%{left:23%;top:53%;}
+    20%{left:27%;top:42%;}
+    30%{left:73%;top:21%;}
+    40%{left:62%;top:36%;}
+    50%{left:27%;top:30%;}
+    60%{left:74%;top:36%;}
+    70%{left:57%;top:31%;}
+    80%{left:29%;top:20%;}
+    90%{left:49%;top:49%;}
+    100%{left:55%;top:0%;}
 
 }
 
@@ -148,39 +148,38 @@
 
 }
 @keyframes fly6{
-    0%{left:1200px;top:10px;}
-    10%{left:570px;top:30px;}
-    20%{left:120px;top:40px;}
-    30%{left:130px;top:210px;}
-    40%{left:20px;top:100px;}
-    50%{left:150px;top:50px;}
-    60%{left:370px;top:50px;}
-    70%{left:250px;top:150px;}
-    80%{left:100px;top:170px;}
-    90%{left:1080px;top:190px;}
-    100%{left:1200px;top:10px;}
+    0%{left:50%;top:0%;}
+    10%{left:20%;top:13%;}
+    20%{left:68%;top:26%;}
+    30%{left:54%;top:51%;}
+    40%{left:32%;top:23%;}
+    50%{left:40%;top:38%;}
+    60%{left:57%;top:26%;}
+    70%{left:65%;top:29%;}
+    80%{left:59%;top:19%;}
+    90%{left:39%;top:49%;}
+    100%{left:50%;top:0%;}
 
 }
 
-label>div.fly7{
+.fly7{
     animation-name:fly7;
     position:relative;
     animation-duration: 8s;
     animation-iteration-count: infinite;
-    transform-origin: inherit;
 
 }
 @keyframes fly7{
-    0%{left:80%;top:10%;}
+    0%{left:40%;top:0%;}
     10%{left:40%;top:33%;}
     20%{left:21%;top:46%;}
     30%{left:34%;top:31%;}
-    40%{left:12%;top:63%;}
-    50%{left:70%;top:50%;}
-    60%{left:37%;top:56%;}
-    70%{left:25%;top:69%;}
-    80%{left:19%;top:70%;}
-    90%{left:89%;top:190px;}
-    100%{left:80%;top:10%;}
+    40%{left:12%;top:13%;}
+    50%{left:70%;top:40%;}
+    60%{left:37%;top:26%;}
+    70%{left:25%;top:39%;}
+    80%{left:19%;top:42%;}
+    90%{left:49%;top:19%;}
+    100%{left:40%;top:0%;}
 
 }
