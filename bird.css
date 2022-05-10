@@ -1,15 +1,3 @@
-/*---Counter----*/
-body{
-    counter-reset: score;
-}
-input:checked+label::before{
-    counter-increment: score;
-}
-.score{
-    width: 50px;
-    content:"Score: " counter(score);
-}
-
 
 
 /*----------- birds -----------*/
