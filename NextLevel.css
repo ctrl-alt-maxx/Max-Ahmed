@@ -1,0 +1,26 @@
+.button{
+    display: flex;
+    width:150px;
+    height:40px;
+    position: absolute;
+    border: solid 2px black;
+    background-color: rgb(233, 180, 227);
+    color: rgb(227, 17, 203);
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.button:hover{
+    opacity: 0.7;
+}
+
+.nextlevel{
+    left:89.8%;
+    top:10%;
+}
+.returnTOindex{
+    left:78%;
+    top:10%;
+}
