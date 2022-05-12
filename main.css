@@ -67,6 +67,10 @@ footer{
 label{z-index:2;}
 .bird{z-index:2;}
 .dead{z-index:3;}
+.undone{z-index:4}
+.done{z-index: 5;}
+.counterText{z-index:6}
+.gameover{z-index:7;}
 
 /*---Counter----*/
 
