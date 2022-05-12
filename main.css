@@ -49,8 +49,7 @@ body{
         cursor: crosshair;
         border-width: 3px;}
 
-    .foot { grid-area: 3 / 2 / 4 / 3; 
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    .foot { grid-area: 3 / 2 / 4 / 3; position: relative;}
 
 
 
@@ -70,9 +69,10 @@ label{z-index:2;}
 .undone{z-index:4}
 .done{z-index: 5;}
 .counterText{z-index:6}
-.gameover{z-index:7;}
+.gameOver{z-index:7;}
+.button{z-index: 8;}
 
-/*---Counter----*/
+/*---Point Counter----*/
 
 body{
     counter-reset:score;
