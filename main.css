@@ -69,7 +69,7 @@ label{z-index:2;}
 .undone{z-index:4}
 .done{z-index: 5;}
 .counterText{z-index:6}
-.gameOver{z-index:0;}
+.gameOver{z-index:7;}
 .button{z-index: 8;}
 
 /*---Point Counter----*/
