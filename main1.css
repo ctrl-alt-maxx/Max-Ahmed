@@ -11,7 +11,7 @@
     background: transparent;
 }
 body{
-    background-image: linear-gradient(rgb(162, 211, 235),rgba(233, 180, 227, 0.551));
+    
     display:flex;
     align-items: center;
     justify-content: center;
@@ -24,6 +24,7 @@ body{
 
 .game-grid {
     display: grid;
+    background-image: linear-gradient(rgb(162, 211, 235),rgba(233, 180, 227, 0.551));
     width: 2558.4px;
     height:100vh;
     position: relative;
@@ -61,7 +62,8 @@ footer{
 
 /*-----------z-index----------*/
 
-.game-grid{z-index: 0;}
+
+.game-grid{z-index: 0.5;}
 .score{z-index: 1;}
 label{z-index:2;}
 .bird{z-index:2;}
@@ -70,7 +72,7 @@ label{z-index:2;}
 .done{z-index: 5;}
 .counterText{z-index:6}
 .gameOver{z-index:0;}
-.button{z-index: -1;}
+.button{z-index: 0;}
 
 /*---Point Counter----*/
 
