@@ -62,11 +62,7 @@
     animation-fill-mode: forwards;
 }
 
-.button{
-    animation-name: Button;
-    animation-duration: 15s;
 
-}
 
  @keyframes timeFlow{ 
 
@@ -83,10 +79,7 @@
     
 }
 
-@keyframes Button{
-    from{z-index:-1;}
-    to{z-index:8}
-}
+
 
 
 
