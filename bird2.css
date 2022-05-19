@@ -30,11 +30,15 @@
     font-size: 22px;
 }
 
-.bird7{
+.bird7{ /* BAT 1*/
     width:160px;
     font-size: 18px;
 }
 
+.bird8{ /* BAT 2*/
+    width:140px;
+    font-size: 16px;
+}
 /*-----general bird settings----*/
 
 label{
@@ -48,6 +52,7 @@ label{
 .all-bird{
     display: flex;
     justify-content: center;
+    align-items: center;
 
     }
 input[type=radio]{
