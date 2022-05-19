@@ -24,7 +24,7 @@ body{
 
 .game-grid {
     display: grid;
-    background-image: linear-gradient(rgb(162, 211, 235),rgba(233, 180, 227, 0.551));
+    background-image: linear-gradient(rgb(162, 211, 235),rgba(104, 78, 236, 0.551));
     width: 100%;
     height:100%;
     position: relative;
@@ -87,6 +87,11 @@ body{
 }
 .score:after{
     content:counter(score);
+}
+
+.button{
+    background-color: rgb(180, 191, 233);
+    color: rgb(82, 7, 231);
 }
 
 
