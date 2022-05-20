@@ -1,0 +1,231 @@
+/*------Wings-----*/  
+
+.left-wing-animation{
+    animation-name:fly-left;
+    position: relative;
+    animation-duration: 1.5s; 
+    animation-iteration-count: infinite; 
+    transform-origin:right;
+  }
+  @keyframes fly-left{
+      0%{transform: rotate(0deg) translateX(5px);}
+      50% {transform: rotate(20deg) translateX(5px); }
+      100%{transform: rotate(0deg) translateX(5px); }
+  }
+  
+  .right-wing-animation
+  {
+      animation-name:fly-right;
+      position: relative;
+      animation-duration: 1.5s; 
+      animation-iteration-count: infinite; 
+      transform-origin:left;
+  }
+  @keyframes fly-right
+  {
+        0%{transform: rotate(0deg) translateX(-10px);}
+        50% {transform: rotate(-20deg)translateX(-10px); }
+        100%{transform: rotate(0deg)translateX(-10px); }
+  }
+
+/*-------Flying-------*/
+
+  .fly1{
+      animation-name:fly1;
+      position:relative;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+
+  }
+  @keyframes fly1{
+    0%{left:75%;top:0%;}
+    10%{left:10%;top:47%;}
+    20%{left:31%;top:26%;}
+    30%{left:57%;top:56%;}
+    40%{left:25%;top:47%;}
+    50%{left:46%;top:52%;}
+    60%{left:75%;top:36%;}
+    70%{left:45%;top:39%;}
+    80%{left:19%;top:26%;}
+    90%{left:70%;top:44%;}
+    100%{left:75%;top:0%;}
+
+  }
+  
+  .fly2{
+    animation-name:fly2;
+    position:relative;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes fly2{
+    0%{left:70%;top:0%;}
+    10%{left:40%;top:33%;}
+    20%{left:21%;top:46%;}
+    30%{left:34%;top:31%;}
+    40%{left:12%;top:13%;}
+    50%{left:70%;top:50%;}
+    60%{left:37%;top:56%;}
+    70%{left:25%;top:31%;}
+    80%{left:19%;top:45%;}
+    90%{left:39%;top:19%;}
+    100%{left:70%;top:0%;}
+
+}
+
+.fly3{
+    animation-name:fly3;
+    position:relative;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes fly3{
+    0%{left:65%;top:0%;}
+    10%{left:20%;top:54%;}
+    20%{left:11%;top:12%;}
+    30%{left:14%;top:31%;}
+    40%{left:57%;top:43%;}
+    50%{left:50%;top:30%;}
+    60%{left:74%;top:26%;}
+    70%{left:45%;top:39%;}
+    80%{left:19%;top:40%;}
+    90%{left:59%;top:39%;}
+    100%{left:65%;top:0%;}
+
+}
+
+.fly4{
+    animation-name:fly4;
+    position:relative;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes fly4{
+    0%{left:60%;top:0%;}
+    10%{left:26%;top:33%;}
+    20%{left:51%;top:51%;}
+    30%{left:74%;top:21%;}
+    40%{left:42%;top:53%;}
+    50%{left:40%;top:20%;}
+    60%{left:57%;top:26%;}
+    70%{left:72%;top:29%;}
+    80%{left:39%;top:50%;}
+    90%{left:59%;top:29%;}
+    100%{left:60%;top:0%;}
+
+}
+
+.fly5{
+    animation-name:fly5;
+    position:relative;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes fly5{
+    0%{left:55%;top:0%;}
+    10%{left:23%;top:53%;}
+    20%{left:27%;top:42%;}
+    30%{left:73%;top:21%;}
+    40%{left:62%;top:36%;}
+    50%{left:27%;top:30%;}
+    60%{left:74%;top:36%;}
+    70%{left:57%;top:31%;}
+    80%{left:29%;top:20%;}
+    90%{left:49%;top:49%;}
+    100%{left:55%;top:0%;}
+
+}
+
+.fly6{
+    animation-name:fly6;
+    position:relative;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes fly6{
+    0%{left:50%;top:0%;}
+    10%{left:20%;top:13%;}
+    20%{left:68%;top:26%;}
+    30%{left:54%;top:31%;}
+    40%{left:32%;top:23%;}
+    50%{left:40%;top:38%;}
+    60%{left:57%;top:26%;}
+    70%{left:65%;top:29%;}
+    80%{left:59%;top:19%;}
+    90%{left:39%;top:9%;}
+    100%{left:50%;top:0%;}
+
+}
+
+.fly7{
+    animation-name:fly7;
+    position:relative;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes fly7{
+    0%{left:40%;top:0%;}
+    10%{left:0%;top:33%;}
+    20%{left:21%;top:16%;}
+    30%{left:34%;top:31%;}
+    40%{left:52%;top:33%;}
+    50%{left:70%;top:10%;}
+    60%{left:37%;top:26%;}
+    70%{left:45%;top:9%;}
+    80%{left:19%;top:22%;}
+    90%{left:9%;top:9%;}
+    100%{left:40%;top:0%;}
+
+}
+
+
+.fly8{
+    animation-name:fly8;
+    position:relative;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes fly8{
+    0%{left:40%;top:20%;}
+    10%{left:0%;top:3%;}
+    20%{left:31%;top:36%;}
+    30%{left:14%;top:21%;}
+    40%{left:42%;top:3%;}
+    50%{left:50%;top:0%;}
+    60%{left:7%;top:36%;}
+    70%{left:45%;top:29%;}
+    80%{left:9%;top:22%;}
+    90%{left:29%;top:9%;}
+    100%{left:40%;top:20%;}
+
+}
+
+
+.fly9{
+    animation-name:fly9;
+    position:relative;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes fly9{
+    0%{left:50%;top:-10%;}
+    10%{left:20%;top:4%;}
+    20%{left:1%;top:12%;}
+    30%{left:44%;top:11%;}
+    40%{left:2%;top:1%;}
+    50%{left:27%;top:20%;}
+    60%{left:31%;top:6%;}
+    70%{left:2%;top:-2%;}
+    80%{left:15%;top:2%;}
+    90%{left:4%;top:19%;}
+    100%{left:50%;top:-10%;}
+
+}

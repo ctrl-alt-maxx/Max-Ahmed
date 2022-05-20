@@ -1,0 +1,105 @@
+
+
+/*----------- birds -----------*/
+.bird1{
+    width:140px;
+    font-size:18px;
+
+}
+.bird2{
+    width:200px;
+    font-size: 23px;
+}
+.bird3{
+    width:150px;
+    font-size: 18px;
+}
+
+.bird4{
+    width:160px;
+    font-size: 18px;
+}
+
+.bird5{
+    width:150px;
+    font-size: 21px;
+}
+
+.bird6{
+    width:190px;
+    font-size: 22px;
+}
+
+.bird7{
+    width:180px;
+    font-size: 21px;
+}
+
+.bird8{
+    width:170px;
+    font-size: 21px;
+}
+
+.bird9{
+    width:200px;
+    font-size: 22px;
+}
+
+/*-----general bird settings----*/
+
+label{
+    cursor:crosshair;
+    border-radius: 25px;
+    position: absolute;
+    display:block;
+
+}
+
+.all-bird{
+    display: flex;
+    justify-content: center;
+
+    }
+input[type=radio]{
+    display:none;
+}
+
+.bird {
+  display: flex;
+  position: relative;
+  opacity: 1;
+  flex-direction: row;
+  justify-content: center;
+  
+  
+  }
+  
+  .left-wing {width:190px;transform: translateX(15px);
+}
+  .body {width:95px; }
+  .right-wing {width:190px;transform: translateX(-19px);}
+
+.dead{
+    position: absolute;
+    opacity:0;
+    border-radius: 50% 50% 50% 50%;
+    background-color:white;
+    border: 3px solid black;
+    color: red;
+   
+    font-weight: bold;  
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    
+}
+
+input:checked + label>div.all-bird>.dead{
+    opacity:1;
+}
+    input:checked + label{
+        transition-delay: 1s;
+        opacity:0;
+       
+    }
+
