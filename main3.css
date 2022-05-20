@@ -40,7 +40,7 @@ body{
     .sidebar-right { grid-area: 2 / 1 / 4 / 2; }
     .sidebar-left { grid-area: 2 / 3 / 4 / 4; }
     .game-space { grid-area: 2 / 2 / 3 / 3; 
-        background-image: url(tumblr_o71mvufacw1uaundno1_1280.gif);
+        background-image: url(lvl3.gif);
         background-repeat: no-repeat;
         background-size: cover;
         border: solid;
