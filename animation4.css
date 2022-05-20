@@ -170,15 +170,37 @@
 
 }
 @keyframes fly7{
+    0%{left:10%;top:0%;}
+    10%{left:60%;top:33%;}
+    20%{left:11%;top:26%;}
+    30%{left:4%;top:31%;}
+    40%{left:22%;top:33%;}
+    50%{left:10%;top:0%;}
+    60%{left:47%;top:26%;}
+    70%{left:5%;top:39%;}
+    80%{left:1%;top:22%;}
+    90%{left:29%;top:19%;}
+    100%{left:10%;top:0%;}
+
+}
+
+.fly8{
+    animation-name:fly8;
+    position:relative;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes fly8{
     0%{left:40%;top:0%;}
     10%{left:40%;top:33%;}
-    20%{left:21%;top:46%;}
+    20%{left:21%;top:6%;}
     30%{left:34%;top:31%;}
     40%{left:12%;top:13%;}
-    50%{left:70%;top:40%;}
+    50%{left:70%;top:10%;}
     60%{left:37%;top:26%;}
     70%{left:25%;top:39%;}
-    80%{left:19%;top:42%;}
+    80%{left:19%;top:2%;}
     90%{left:49%;top:19%;}
     100%{left:40%;top:0%;}
 
