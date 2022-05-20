@@ -2,8 +2,8 @@
 
 /*----------- birds -----------*/
 .bird1{
-    width:140px;
-    font-size:18px;
+    width:170px;
+    font-size:21px;
 
 }
 .bird2{
@@ -16,17 +16,17 @@
 }
 
 .bird4{
-    width:160px;
-    font-size: 18px;
+    width:180px;
+    font-size: 22px;
 }
 
 .bird5{
-    width:150px;
+    width:160px;
     font-size: 21px;
 }
 
 .bird6{
-    width:190px;
+    width:180px;
     font-size: 22px;
 }
 

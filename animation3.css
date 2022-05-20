@@ -33,7 +33,7 @@
   .fly1{
       animation-name:fly1;
       position:relative;
-      animation-duration: 13s;
+      animation-duration: 11s;
       animation-iteration-count: infinite;
 
   }
@@ -55,7 +55,7 @@
   .fly2{
     animation-name:fly2;
     position:relative;
-    animation-duration: 14s;
+    animation-duration: 12s;
     animation-iteration-count: infinite;
 
 }
@@ -77,7 +77,7 @@
 .fly3{
     animation-name:fly3;
     position:relative;
-    animation-duration: 14s;
+    animation-duration: 12s;
     animation-iteration-count: infinite;
 
 }
@@ -148,17 +148,17 @@
 
 }
 @keyframes fly6{
-    0%{left:50%;top:0%;}
+    0%{left:10%;top:-30%;}
     10%{left:20%;top:13%;}
-    20%{left:68%;top:26%;}
-    30%{left:54%;top:51%;}
-    40%{left:32%;top:23%;}
-    50%{left:40%;top:38%;}
-    60%{left:57%;top:26%;}
-    70%{left:65%;top:29%;}
+    20%{left:28%;top:6%;}
+    30%{left:54%;top:1%;}
+    40%{left:12%;top:-13%;}
+    50%{left:40%;top:8%;}
+    60%{left:17%;top:-26%;}
+    70%{left:5%;top:9%;}
     80%{left:59%;top:19%;}
-    90%{left:39%;top:49%;}
-    100%{left:50%;top:0%;}
+    90%{left:39%;top:-9%;}
+    100%{left:10%;top:-30%;}
 
 }
 
@@ -170,16 +170,30 @@
 
 }
 @keyframes fly7{
-    0%{left:40%;top:0%;}
-    10%{left:40%;top:33%;}
-    20%{left:21%;top:46%;}
-    30%{left:34%;top:31%;}
-    40%{left:12%;top:13%;}
-    50%{left:70%;top:40%;}
-    60%{left:37%;top:26%;}
-    70%{left:25%;top:39%;}
-    80%{left:19%;top:42%;}
-    90%{left:49%;top:19%;}
-    100%{left:40%;top:0%;}
+    0%{left:30%;top:-10%;}
+    10%{left:40%;top:-3%;}
+    20%{left:21%;top:4%;}
+    30%{left:44%;top:-31%;}
+    40%{left:12%;top:3%;}
+    50%{left:10%;top:-40%;}
+    60%{left:7%;top:-6%;}
+    70%{left:25%;top:3%;}
+    80%{left:9%;top:2%;}
+    90%{left:29%;top:-19%;}
+    100%{left:30%;top:-10%;}
+
+}
+
+.fly8{
+    animation-name:fly8;
+    position:relative;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes fly8{
+    0%{left:0%;top:-25%;}
+    50%{left:90%;top:-25%;}
+    100%{left:0%;top:-25%;}
 
 }

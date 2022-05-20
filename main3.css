@@ -11,7 +11,14 @@
     background: transparent;
 }
 body{
-    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow:hidden;
+
     display:flex;
     align-items: center;
     justify-content: center;
@@ -24,7 +31,7 @@ body{
 
 .game-grid {
     display: grid;
-    background-image: linear-gradient(rgb(162, 211, 235),rgba(233, 180, 227, 0.551));
+    background-image: linear-gradient(rgb(213, 213, 213),rgba(76, 241, 164, 0.551));
     width: 2558.4px;
     height:100vh;
     position: relative;
@@ -87,6 +94,10 @@ body{
 }
 .score:after{
     content:counter(score);
+}
+.button{
+    background-color: rgb(180, 233, 201);
+    color: rgb(6, 142, 24);
 }
 
 
