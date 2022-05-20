@@ -35,6 +35,11 @@
     font-size: 21px;
 }
 
+.bird8{
+    width:190px;
+    font-size: 21px;
+}
+
 /*-----general bird settings----*/
 
 label{
@@ -64,10 +69,9 @@ input[type=radio]{
   
   }
   
-  .left-wing {width:190px;transform: translateX(15px);
-}
+  .left-wing {width:190px;transform: translateX(15px);}
   .body {width:95px; }
-  .right-wing {width:190px;transform: translateX(-19px);}
+  .right-wing {width:190px;transform: translateX(-19px)}
 
 .dead{
     position: absolute;
@@ -75,7 +79,7 @@ input[type=radio]{
     border-radius: 50% 50% 50% 50%;
     background-color:white;
     border: 3px solid black;
-    color: red;
+    color: rgb(15, 143, 68);
    
     font-weight: bold;  
     text-align: center;
