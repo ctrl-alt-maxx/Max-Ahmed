@@ -24,7 +24,7 @@ body{
 
 .game-grid {
     display: grid;
-    background-image: linear-gradient(rgb(162, 211, 235),rgba(233, 180, 227, 0.551));
+    background-image: linear-gradient(rgb(94, 201, 255),rgba(42, 25, 234, 0.551));
     width: 2558.4px;
     height:100vh;
     position: relative;
@@ -40,7 +40,7 @@ body{
     .sidebar-right { grid-area: 2 / 1 / 4 / 2; }
     .sidebar-left { grid-area: 2 / 3 / 4 / 4; }
     .game-space { grid-area: 2 / 2 / 3 / 3; 
-        background-image: url(tumblr_o71mvufacw1uaundno1_1280.gif);
+        background-image: url(lvl5.gif);
         background-repeat: no-repeat;
         background-size: cover;
         border: solid;
@@ -65,8 +65,10 @@ footer{
 
 .game-grid{z-index: 0.5;}
 .score{z-index: 1;}
-label{z-index:2;}
-.bird{z-index:2;}
+label{z-index:4;}
+.left-wing{z-index:2;}
+.right-wing{z-index:2;}
+.body{z-index:3;}
 .dead{z-index:3;}
 .undone{z-index:4}
 .done{z-index: 5;}
@@ -89,4 +91,8 @@ body{
     content:counter(score);
 }
 
+.button{
+    background-color: rgb(180, 200, 233);
+    color: rgb(29, 6, 142);
+}
 

@@ -31,8 +31,18 @@
 }
 
 .bird7{
-    width:190px;
+    width:180px;
     font-size: 21px;
+}
+
+.bird8{
+    width:170px;
+    font-size: 21px;
+}
+
+.bird9{
+    width:200px;
+    font-size: 22px;
 }
 
 /*-----general bird settings----*/
