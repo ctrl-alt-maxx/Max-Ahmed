@@ -25,7 +25,7 @@ body{
 .game-grid {
     display: grid;
     background-image: linear-gradient(rgb(162, 211, 235),rgba(233, 180, 227, 0.551));
-    width: 2558.4px;
+    width: 100%;
     height:100vh;
     position: relative;
     grid-template-columns: 0.01fr 1fr 0.01fr;
@@ -48,7 +48,9 @@ body{
         border-color: black;
         margin-bottom: -5px;
         cursor: crosshair;
-        border-width: 3px;}
+        border-width: 3px;
+        
+    }
 
     .foot { grid-area: 3 / 2 / 4 / 3; }
 
@@ -86,7 +88,7 @@ body{
     counter-increment:score;
 }
 .score{
-    position:fixed;font-size: 24px;top:14%; left:2%;
+    position:absolute;font-size: 24px;top:4%; left:1%;
 }
 .score:after{
     content:counter(score);
