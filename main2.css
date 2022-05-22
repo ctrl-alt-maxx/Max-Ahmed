@@ -93,7 +93,7 @@ body{
     counter-increment:score;
 }
 .score{
-    position:fixed;font-size: 24px;top:14%; left:2%;
+    position:absolute;font-size: 24px;top:4%; left:1%;
 }
 .score:after{
     content:counter(score);
