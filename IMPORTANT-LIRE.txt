@@ -1,0 +1,8 @@
+Salut comme vu en ouvrant nos code source il y en a beaucoup 
+donc pour voir notre projet au complet en tant que jeu
+ouvrir index.html et tout est acessible de là, tout niveau
+
+essayer le niveau impossible (lvl 6)
+ il porte son nom pour une raison >:) 
+
+bonne journée
