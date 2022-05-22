@@ -1,0 +1,9 @@
+
+   @media(max-device-width:600px){
+    .counterContainer{
+        left:50%;
+        top:0%;
+        width: 250px;
+        height: 35px;
+    }
+}

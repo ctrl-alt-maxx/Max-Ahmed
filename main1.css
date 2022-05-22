@@ -50,13 +50,15 @@ body{
         cursor: crosshair;
         border-width: 3px;}
 
-    .foot { grid-area: 3 / 2 / 4 / 3; position: relative;}
+    .foot { grid-area: 3 / 2 / 4 / 3; }
 
 
 
 footer{
-
-    opacity: 0.5;
+    position: absolute;
+    left:0%;
+    top:90%;
+    
     
 }
 
@@ -73,6 +75,7 @@ label{z-index:2;}
 .counterText{z-index:6}
 .gameOver{z-index:0;}
 .button{z-index: 0;}
+.footer{z-index: 5}
 
 /*---Point Counter----*/
 

@@ -1,7 +1,7 @@
 .button{
     width:150px;
     height:40px;
-    position: absolute;
+    position: relative;
     border: solid 2px black;
     text-align: center;
     text-decoration: none;
@@ -13,19 +13,8 @@
     
 }
 
-
-.nextlevel{
-    left:89.8%;
-    top:10%;
-}
-.restart{
-    left:62%;
-    top:10%;
-}
-.returnTOindex{
-    left:78%;
-    top:10%;
-}
+.foot {position: relative;
+    display: flex; justify-content:space-between; align-items: center;}
 
 @keyframes Button{
     0%{opacity: 0;pointer-events: none;}

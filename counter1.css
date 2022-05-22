@@ -19,7 +19,7 @@
 
 }
 
-.couterContainer{
+.counterContainer{
     display: flex;
     align-items: center;
     position: absolute;
@@ -61,6 +61,7 @@
     animation-timing-function: linear;
     animation-fill-mode: forwards;
 }
+ 
 
 
 
