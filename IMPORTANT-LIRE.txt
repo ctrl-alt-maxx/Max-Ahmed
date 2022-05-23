@@ -4,5 +4,6 @@ ouvrir index.html et tout est acessible de là, tout niveau
 
 essayer le niveau impossible (lvl 6)
  il porte son nom pour une raison >:) 
+suggestion: utiliser une souris.
 
 bonne journée
