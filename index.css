@@ -41,7 +41,7 @@ a{
     .div5 { grid-area: 3 / 2 / 4 / 3; border:solid 3px rgb(71, 52, 28);}
     .div6 { grid-area: 3 / 3 / 4 / 4; border:solid 3px rgb(71, 52, 28);}
     .div7 { grid-area: 3 / 4 / 4 / 5; border:solid 3px rgb(71, 52, 28);}
-    .div8 { grid-area: 4 / 2 / 5 / 3; }
+    .div8 { grid-area: 4 / 2 / 5 / 3; border:solid 3px rgb(71, 52, 28);}
     .div9 { grid-area: 4 / 3 / 5 / 4; }
     .div10 { grid-area: 4 / 4 / 5 / 5; }
     .div11 { grid-area: 5 / 2 / 6 / 3; }
