@@ -1,0 +1,101 @@
+/*-------GameSpace-----*/
+*{
+    
+    margin:0;
+    padding:0;
+}
+::selection{
+    background: transparent;
+}
+::-moz-selection{
+    background: transparent;
+}
+body{
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+
+    
+
+    
+}
+
+.game-grid {
+    display: grid;
+    background-image: linear-gradient(rgb(162, 211, 235),rgba(233, 180, 227, 0.551));
+    width: 100%;
+    height:100%;
+    position: relative;
+    grid-template-columns: 0.01fr 1fr 0.01fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    .head { grid-area: 1 / 1 / 2 / 4; 
+        display:flex;
+        align-items: center;
+        justify-content: center;}
+    .sidebar-right { grid-area: 2 / 1 / 4 / 2; }
+    .sidebar-left { grid-area: 2 / 3 / 4 / 4; }
+    .game-space { grid-area: 2 / 2 / 3 / 3; 
+        background-image: url(lvl1.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: solid;
+        position: relative;
+        border-color: black;
+        margin-bottom: -5px;
+        cursor: crosshair;
+        border-width: 3px;
+        
+    }
+
+    .foot { grid-area: 3 / 2 / 4 / 3; }
+
+
+
+footer{
+    position: absolute;
+    left:0%;
+    top:90%;
+    
+    
+}
+
+/*-----------z-index----------*/
+
+
+.game-grid{z-index: 0.5;}
+.score{z-index: 1;}
+label{z-index:2;}
+.bird{z-index:2;}
+.dead{z-index:3;}
+.undone{z-index:4}
+.done{z-index: 5;}
+.counterText{z-index:6}
+.gameOver{z-index:0;}
+.button{z-index: 0;}
+.footer{z-index: 5}
+
+/*---Point Counter----*/
+
+body{
+    counter-reset:score;
+}
+.count:checked + label{
+    counter-increment:score;
+}
+.score{
+    position:absolute;font-size: 24px;top:4%; left:1%;
+}
+.score:after{
+    content:counter(score);
+}
+
+
+.button{
+    background-color: rgb(233, 180, 227);
+    color: rgb(227, 17, 203);
+}

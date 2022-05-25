@@ -1,0 +1,88 @@
+
+
+.gameOver{
+
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color:rgba(0, 0, 0, 0.716);
+    animation-name: gameOver;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    font-size: 40px;
+
+}
+
+.counterContainer{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    left:-0.1%;
+    border:solid;
+   
+    border-width: 2px;
+    border-color: black;
+}
+
+.counterText{
+
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    color:rgb(83, 13, 118);
+    font-size:large;
+    
+}
+
+.undone{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(229, 164, 232, 0.258);
+  
+}
+
+.done{
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background-color:rgba(209, 139, 244, 0.678);
+  
+    animation-duration: 15s;
+    animation-name: timeFlow;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+ 
+
+
+
+ @keyframes timeFlow{ 
+
+    from {width:0%;}
+    to {width:100%;}
+} 
+
+@keyframes gameOver{
+
+    0% {opacity: 0;}
+    99% {opacity: 0;}
+    100% {opacity: 1;
+    z-index: 7;}
+    
+}
+
+
+
+
+
+
+
